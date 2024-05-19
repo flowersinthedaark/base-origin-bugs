@@ -1,0 +1,26 @@
+{
+	"loading_priority": 10,
+    "type": "origins:conditioned_restrict_armor",
+	"head": {
+		"type": "origins:constant",
+		"value": true
+	},
+	"chest": {
+		"type": "origins:constant",
+		"value": true
+	},
+	"legs": {
+		"type": "origins:constant",
+		"value": true
+	},
+	"feet": {
+		"type": "origins:constant",
+		"value": true
+	},
+    "condition": {
+        "type": "origins:attribute",
+        "attribute": "minecraft:generic.armor",
+        "comparison": ">",
+        "compare_to": 12
+    }
+}
